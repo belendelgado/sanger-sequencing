@@ -36,7 +36,13 @@ For its use with BLASTN, databases need to be formatted using blast commands. To
 
 `sbatch makeblastdb.sh`
 
+When you create a database, several files will be generated, with different suffixes: '.ndb', '.nhr', '.nin'... Note that the basename of the database is the previous part without the suffixes. That is what you will use for the next step.
+
 ## Running the pipeline
+
+Clone the repository in your folder:
+
+`git clone https://github.com/belendelgado/sanger-sequencing`
 
 The bash script '16s_sanger.sh' will run all the pipeline following the steps below.
 
