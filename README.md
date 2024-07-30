@@ -10,8 +10,11 @@ To run this pipeline, you will need to download some dependencies and databases 
 ### Install blast_plus
 
 Download the last version of BLAST:
+
 `wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST`
+
 Unzip the file:
+
 `tar zxvpf ncbi-blast-2.14.1+-x64-linux.tar.gz`
 
 Now you will get a directory called 'ncbi-blast-2.14.1+/'. The 'bin' directory is inside and contains all the programs.
